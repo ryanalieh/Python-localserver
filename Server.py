@@ -8,7 +8,7 @@ class MyServer(BaseHTTPRequestHandler):
         self.send_response(200)
         self.send_header("Content-type", "text/html")
         self.end_headers()
-        self.wfile.write(bytes("<html><head><title>https://github.com/lxnar-dev/</title></head>", "utf-8"))
+        self.wfile.write(bytes("<html><head><title>hi abood hahaha </title></head>", "utf-8"))
         self.wfile.write(bytes("<body>", "utf-8"))
         self.wfile.write(bytes("<h1>First page</h1>", "utf-8"))
         self.wfile.write(bytes("<p>localhost made with python by RyanDevv</p>", "utf-8"))
